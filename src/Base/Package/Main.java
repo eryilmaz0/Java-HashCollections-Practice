@@ -20,9 +20,9 @@ public class Main {
         Person person = personList.stream().filter(x -> x.getId() == 1).findFirst().get();
 
         person.addPhoneNumber("05464182562");
-        person.addPhoneNumber("22222222");
+        person.addPhoneNumber("22222222");  //Fails
 
-        person.addAddress("address 1");
+        person.addAddress("address 1");  //Fails
         person.addAddress("address 100");
 
     }
